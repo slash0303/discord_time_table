@@ -1,2 +1,2 @@
 # DiscordTimeTable
-Time Table Bot in discord
+Time Table Bot for discord
