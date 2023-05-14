@@ -8,8 +8,9 @@ from easy_module_extension import LogE
 from easy_module_extension import jsonE
 from dict_sort_extension import usrdat
 
-# 봇 토큰
-token = "MTAwOTM4Njc3MzM1NDM4NTQxOA.GSHGhP.ITtC7ydJZzyoqLgqEBt9jcDfQjbYqzHW3CLdzY"
+# 봇 토큰 파싱
+privacy = jsonE.load("privacy.json")
+token = privacy["token"]
 
 # 봇 커맨드 감지 문자
 bot = commands.Bot(command_prefix = "/") 
